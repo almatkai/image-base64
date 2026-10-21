@@ -3,7 +3,7 @@
   "name": "image-base64",
   "title": "Image Base64 Converter",
   "description": "Convert between base64 strings and images easily",
-  "icon": "extension-icon.png",
+  "icon": "assets/extension-icon.png",
   "author": "almatkai",
   "categories": [
     "Developer Tools"
