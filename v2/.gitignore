@@ -1,0 +1,4 @@
+/.qa/
+/target/
+/node_modules/
+*.zip
