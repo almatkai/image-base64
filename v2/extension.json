@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 3,
+  "id": "com.tezbar.native.image-base64",
+  "slug": "image-base64",
+  "name": "Image Base64 Converter",
+  "version": "0.1.0",
+  "description": "Convert between base64 strings and images easily",
+  "icon": "resources/extension-icon.png",
+  "author": "almatkai",
+  "runtime": "rust",
+  "execution": "process",
+  "protocolVersion": 1,
+  "repository": "https://github.com/almatkai/image-base64",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "commands": [
+    {
+      "name": "base64-to-image",
+      "title": "Base64 to Image",
+      "description": "Convert base64 to image",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "refreshMs": null,
+      "concurrency": "reject-while-busy",
+      "timeoutMs": 300000
+    },
+    {
+      "name": "image-to-base64",
+      "title": "Image to Base64",
+      "description": "Convert image to base64",
+      "mode": "view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "refreshMs": null,
+      "concurrency": "reject-while-busy",
+      "timeoutMs": 300000
+    }
+  ],
+  "preferences": [],
+  "replaces": [
+    "com.tezbar.image-base64",
+    "raycast.image-base64"
+  ],
+  "capabilities": [
+    "clipboard.write"
+  ],
+  "artifacts": {},
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Actual GUI/OS/native platform acceptance not run"
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Actual GUI/OS/native platform acceptance not run"
+    }
+  ]
+}
